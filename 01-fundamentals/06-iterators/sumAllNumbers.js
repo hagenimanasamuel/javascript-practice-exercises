@@ -5,7 +5,3 @@ nums3.forEach(n => {
 })
 
 console.log(sum)
-
-// Alternative solution using reduce method
-const total = nums3.reduce((acc, n) => acc + n, 0);
-console.log(total)
