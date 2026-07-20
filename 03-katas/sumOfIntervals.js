@@ -25,4 +25,4 @@ function sumIntervals(intervals) {
     return total;
 }
 
-console.log(sumIntervals([[1,5],[1,5]]))
+console.log(sumIntervals([[1,5],[7,10], [2, 4]]))

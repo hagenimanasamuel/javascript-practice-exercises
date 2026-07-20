@@ -1,0 +1,462 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+}
+
+header {
+    padding: 25px 60px;
+    background: #ffffff;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #5B6D77;
+}
+
+.logo-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #5B6D77;
+    font-size: 15px;
+    text-transform: lowercase;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #F2991E;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 120px auto 60px auto;
+    padding: 40px 60px;
+    min-height: 80vh;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.ola {
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #5B6D77;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.hero-content h1 span {
+    color: #5B6D77;
+}
+
+.hero-sub {
+    font-size: 18px;
+    color: #555555;
+    margin: 20px 0px 30px 0px;
+}
+
+.btn-saiba {
+    display: inline-block;
+    padding: 14px 35px;
+    background-color: #263138;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: background 0.3s;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn-saiba:hover {
+    background-color: #1a2128;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sobre {
+    padding: 80px 60px;
+    background: #ffffff;
+}
+
+.sobre-container {
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.sobre-image {
+    text-align: center;
+}
+
+.sobre-image img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.sobre-content {
+    text-align: center;
+    max-width: 800px;
+}
+
+.sobre-content h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.matheus {
+    color: #445964;
+}
+
+.campos {
+    color: #263138;
+}
+
+.sobre-desc {
+    font-size: 18px;
+    color: #333333;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.hard-skills h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hard {
+    color: #263138;
+}
+
+.skills {
+    color: #445964;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+.skill-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.skill-row span {
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #5B6D77;
+    flex: 1;
+    text-align: center;
+    max-width: 120px;
+}
+
+.techs {
+    padding: 80px 60px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0px auto;
+    background: #ffffff;
+}
+
+.techs h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.minhas {
+    color: #445964;
+}
+
+.techs-label {
+    color: #263138;
+}
+
+.tech-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.tech-card {
+    padding: 40px 50px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.tech-subtitle {
+    font-size: 14px;
+    color: #666666;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.tech-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #263138;
+    margin-bottom: 20px;
+}
+
+.utilizadas {
+    color: #263138;
+}
+
+.desenvolvendo {
+    color: #263138;
+}
+
+.tech-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.tech-icons img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.tech-quote {
+    font-size: 20px;
+    color: #5B6D77;
+    font-style: italic;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.experiencia {
+    padding: 80px 60px;
+    background: #ffffff;
+}
+
+.experiencia h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.experiencia-label {
+    color: #5B6D77;
+}
+
+.profissional {
+    color: #000000;
+}
+
+.exp-cards {
+    display: flex;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0px auto 50px auto;
+}
+
+.exp-card {
+    padding: 35px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.exp-card h3 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.exp-card p {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.8;
+    opacity: 0.9;
+}
+
+.first-last {
+    background-color: #263138;
+}
+
+.middle {
+    background-color: #445964;
+}
+
+.quote {
+    text-align: center;
+    font-size: 22px;
+    color: #333333;
+    font-style: italic;
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 30px 0px;
+}
+
+.aprender {
+    color: #000000;
+    font-weight: 800;
+}
+
+.mente {
+    color: #000000;
+    font-weight: 800;
+}
+
+.leonardo {
+    color: #000000;
+    font-weight: 800;
+    font-size: 26px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px 20px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 140px;
+        text-align: center;
+    }
+
+    .ola {
+        font-size: 22px;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+
+    .sobre {
+        padding: 40px 20px;
+    }
+
+    .sobre-content h2 {
+        font-size: 32px;
+    }
+
+    .techs {
+        padding: 40px 20px;
+    }
+
+    .tech-card {
+        padding: 30px;
+    }
+
+    .exp-cards {
+        flex-direction: column;
+    }
+
+    .experiencia {
+        padding: 40px 20px;
+    }
+
+    .quote {
+        font-size: 18px;
+        padding: 20px 0px;
+    }
+
+    .leonardo {
+        font-size: 22px;
+    }
+
+    .tech-icons img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .skill-row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skill-row span {
+        flex: 0 0 calc(50% - 15px);
+        max-width: calc(50% - 15px);
+    }
+}

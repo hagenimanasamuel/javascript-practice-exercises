@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 0;
+    font-family: Inter, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 300vh;
+    justify-content: center;
+}
+
+.main-container{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.inner-container{
+    background-color: #1C1C1C;
+    height: 100%;
+    width: 165vh;
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+}
+
+.sub-card-container{
+    background-color: #23252C;
+    height: 900px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.card-container{
+    background-color: #1A1B21;
+    height: 800px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.footer .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .intro h1 {
+    font-size: 27px;
+    margin-top: 10px;
+}
+
+.footer .intro p:nth-child(2) {
+    font-size: 14px;
+    color: #cda589;
+}
+
+.footer .intro p:nth-child(3) {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.footer .intro .btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.footer .intro .btn-container button {
+    background-color: #FFFFFF;
+    color: #242425;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer .intro .btn-container button:nth-child(2) {
+    background-color: #5093E2;
+    color: white;
+}
+
+.footer .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 5px 30px;
+    gap: 10px;
+    font-size: 11px;
+}
+
+.footer .about .about-section {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer .about .interest-section {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 10px;
+    background-color: #161619;
+    width: 100%;
+    padding: 30px 0px;
+    border-radius: 0 0 10px 10px
+}
+
+.footer .bottom span {
+    font-weight: 700;
+    color: #b6b6b6;
+}
